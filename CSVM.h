@@ -40,20 +40,6 @@ private:
 
 	static const float m_epsilon;
 
-	/// Computes l2 norm for a given vector.
-	template<typename T>
-	double l2_norm(const vector<T>& vec)
-	{
-		return sqrt( UStatistics(vec).SquareSum() +  m_epsilon*m_epsilon);
-	}
-
-	/// Computes l1 norm for a given vector.
-	template<typename T>
-	double l1_norm(const vector<T>& vec)
-	{
-		return UStatistics(vec).Sum() + m_epsilon;
-	}
-
 	bool m_b_trained;
 	svm_model* m_model;
 	svm_node* m_xspace;
