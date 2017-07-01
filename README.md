@@ -5,16 +5,16 @@ The proposed method consists of two main stages, feature extraction and classifi
 
 In the classification step, we trained a linear SVM (using LibSVM) with precomputed features at the first step. This part is also written in C/C++ and it can be built by running "make" on a ubuntu terminal (it should be x64). "feature.zip" contains these precomputed features and you can access the pretrained SVM models from "svmmodels" directory.
 
-"main.cpp" is the main code for the classification step and it comprises three modes, training a SVM model, e.g. train("anger");, obtaining the validation predictions, e.g. validate("anger");, and obtaining the test predictions, e.g. test("anger");. By default, it can only generate validation and test predictions, and print to screen for each emotion type. In order to activate train mode, you should remove the comment syntax in "void main()" function for each type. 
+"main.cpp" is the main code for the classification step and it comprises three modes, training a SVM model, e.g. train("anger");, obtaining the validation predictions, e.g. validate("anger");, and obtaining the test predictions, e.g. test("anger");. By default, it can only generate validation and test predictions, and print to screen for each emotion type. In order to activate training mode, you should remove the comment syntax in "void main()" function for each type. 
 
 We also provide our final predictions in "val.py". You can create "test_prediction.pkl" and verify our predictions.
 
 In order to build and test the project, several steps need to be done.
 
 * Extract "feature.zip" to the project directory.
-* Execute "make" on command line to build the code. It will create "svm" binary file.
+* Execute "make" on command line to build the code. It will generate "svm" binary file.
 * Run "svm" binary file to visualize the validation and test results. 
 
-Further detail about our method will be provided soon.
+Further implementation detail about our method will be provided soon. Stay tuned!...
 
 
