@@ -15,7 +15,7 @@ In order to build and test the project, several steps need to be done.
 * Execute "make" on command line to build the code. It will generate "svm" binary file.
 * Run "svm" binary file to visualize the validation and test results. 
 
-Lastly, this project was built and tested on Ubuntu 12.04 LTS (64-bit). 
+Lastly, this project was built and tested on Ubuntu 14.04 LTS (64-bit). 
 
 Further implementation detail about our method will be provided soon. Stay tuned!...
 
