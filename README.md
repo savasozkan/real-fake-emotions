@@ -23,7 +23,7 @@ Please cite the following paper:
 
 [1] Savas Ozkan and Gozde Bozdagi Akar, Relaxed Spatio-Temporal Deep Feature Aggregation for Real-Fake Expression Prediction, arXiv:1708.07335:
 ```
-@article{ozkan17endnet,
+@article{ozkan17relaxed,
   title={Relaxed Spatio-Temporal Deep Feature Aggregation for Real-Fake Expression Prediction},
   author={Ozkan, Savas and Akar, Gozde B},
   journal={arXiv:1708.07335},
